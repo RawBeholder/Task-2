@@ -1,40 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 2</title>
     <style>
-        .container{
-            height:100px;
-            width:100%;
+       .container {
             background-color: blue;
+            height:15%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left:0;
+            min-height: 5%;
+            min-width: 33%;
         }
         .box{
             display: inline-block;
-            height:62px;
+            height:50%;
             width:26%;
             background-color: rgb(206, 197, 197);
+            min-height: 17%;
+            min-width: 9%;
         }
         #box1{
-            position:relative;
-            top:18px;
-            left:21px;
-            
+            position:absolute;
+            left: 3%;
+            top: 25%;
         }
         #box2{
-            position:relative;
-            top:18px;
-            left:173px;
+          position:absolute;
+          left: 36%;
+          top: 25%;
         }
         #box3{
-            position:relative;
-            top:18px;
-            left:310px;
+            position:absolute;
+            right: 3%;
+            top: 25%;
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="box" id="box1"></div>
@@ -42,4 +50,5 @@
         <div class="box" id="box3"></div>
     </div>
 </body>
+
 </html>
